@@ -1,16 +1,15 @@
-# def Menu():
-#   print('1 - Nouvelle partie')
-#   print('2 - Informations')
-#   print('3 - Quitter')
-    
-#     ChoixMenu = int(input())
-#   if ChoixMenu == 1:
-#     newGame()
+print('1 - Nouvelle partie')
+print('2 - Informations')
+print('3 - Quitter')
 
-#   elif ChoixMenu == 2:
-#     info()
+ChoixMenu = int(input())
 
-#   elif ChoixMenu == 3:
-#     leave()
+if ChoixMenu == 1:
+    newGame()
+    print('Nouvelle partie')
 
-print('Coucou')
+elif ChoixMenu == 2:
+    info()
+
+else:
+    leave()
