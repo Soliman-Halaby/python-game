@@ -92,5 +92,5 @@ class bigPharaon(Monster):
 class camel(Monster):
     def __init__(self, game):
         super().__init__(game, "camel", 138)
-        self.damage = 1.3
-        self.setSpeed(2)
+        self.damage = 0.5
+        self.setSpeed(1)

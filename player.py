@@ -11,7 +11,7 @@ class Player(animation.spriteAnimation):
         self.health = 100
         self.projectile = 'projectile'
         self.maxHealth = 100
-        self.damage = 10
+        self.damage = 15
         self.moveSpeed = 5
         self.rect = self.image.get_rect()
         self.rect.x = 400
