@@ -51,19 +51,16 @@ class Game:
             menu.thirdItemButton = pygame.image.load('assets/inventoryMenu/thirdItemButton.png')
             self.createMonster(bigPharaon)
             self.createMonster(Slave)
-            self.createMonster(Mummy)
 
         if self.player.level == 4:
             menu.fourthItemButton = pygame.image.load('assets/inventoryMenu/fourthItemButton.png')
             self.background = pygame.image.load('assets/background_level4.png')
-            self.createMonster(bigPharaon)
             self.createMonster(Slave)
-            self.createMonster(Mummy)
             self.createMonster(camel)
 
     #Methode lorsque le jeu est terminé
     def gameOver(self):
-        #Reinitialisation es monstres
+        #Reinitialisation les monstres
         self.allMonsters = pygame.sprite.Group()
         #Reinitialisation du background
         self.background = pygame.image.load('assets/background_level1.png')

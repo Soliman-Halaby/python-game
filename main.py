@@ -84,7 +84,7 @@ while isRunning:
             gameScreen.blit(menu.fourthItemButton, menu.fourthItemButtonRect)
 
     #Condition si le joueur arrive au niveau 5
-    if game.player.level == 2:
+    if game.player.level == 5:
         #Le jeu s'arrête
         game.isPlaying = False
         #Le menu principal ne s'affichage pas

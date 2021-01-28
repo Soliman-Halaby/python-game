@@ -73,24 +73,24 @@ class Slave(Monster):
 
     def __init__(self, game):
         super().__init__(game, "slave", 90)
-        self.damage = 0.8
+        self.damage = 0.45
         self.setSpeed(1)
 
 class Boss(Monster):
     def __init__(self, game):
         super().__init__(game, "bigBoss", 130, isBoss=True)
         self.health = 100
-        self.damage = 1
-        self.setSpeed(2)
+        self.damage = 0.3
+        self.setSpeed(1)
 
 class bigPharaon(Monster):
     def __init__(self, game):
         super().__init__(game, "bigPharaon", 215)
-        self.damage = 0.8
+        self.damage = 0.45
         self.setSpeed(1)
 
 class camel(Monster):
     def __init__(self, game):
         super().__init__(game, "camel", 138)
         self.damage = 1.3
-        self.setSpeed(3)
+        self.setSpeed(2)
